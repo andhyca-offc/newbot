@@ -56,6 +56,7 @@ const defaultMenu = {
 ⫹⫺ Hyzer
 ⫹⫺ KrizynOfc
 ⫹⫺ RielgansOfc
+⫹⫺ ArullOfc
 ╰─────────────⬣
 `,
 }
@@ -534,28 +535,28 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
              {
              urlButton: {
-               displayText: '𝐆𝐑𝐎𝐔𝐏 𝐁𝐎𝐓 𝐑𝐈𝐄𝐋🎮', 
+               displayText: 'GROUP BOT', 
                url: gc
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '𝐎𝐖𝐍𝐄𝐑 𝐑𝐈𝐄𝐋𝐁𝐎𝐓𝐙🐤',
+               displayText: 'PEMILIK BOT ',
                id: '.owner',
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '𝐃𝐎𝐍𝐀𝐒𝐈 𝐂𝐎𝐊🗿',
+               displayText: 'DONASI ANJ',
                id: '.donasi',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: ' 𝐂𝐑𝐄𝐃𝐈𝐓𝐒🎖️',
+               displayText: ' THANKS TO',
                id: '.tqto',
              }
            }]
@@ -582,7 +583,7 @@ handler.mods = false
 handler.premium = false
 handler.group = false
 handler.private = false
-handler.register = true
+handler.register = false
 handler.admin = false
 handler.botAdmin = false
 
@@ -606,7 +607,7 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Hallo"
+  res = "tidur gih sana"
   if (time >= 4) {
     res = "Hallo👋"
   }
