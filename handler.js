@@ -708,7 +708,7 @@ module.exports = {
                         } finally {
                             text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Yah,si Beban Masuk Grup @user').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
                                 (chat.sBye || this.bye || conn.bye || 'Sip, Beban Berkurang @user!')).replace('@user', '@' + user.split('@')[0])
-                                this.sendButtonImg(id, pp, text, "🌸 Group Message", "Tampilan Menu", ".menu", null)
+                                this.sendButtonImg(id, pp, text, "мєѕѕαgє вσт", "Tampilan Menu", ".menu", null)
                                 }
                     }
                 }
@@ -777,16 +777,16 @@ ketik *.off delete* untuk mematikan pesan ini
 global.dfail = (type, m, conn) => {
   let name = conn.getName(m.sender)
   let msg = {
-    rowner: `╭─֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕֍─
+    rowner: `╭─֍〔 ıll 𝗔𝗿𝘂𝗹𝗹𝗢𝗳𝗰 llı 〕֍─
 ⬡ Perintah ini hanya untuk developer bot
 ╰─────────────────֍`,
-    owner: `╭─֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕֍─
+    owner: `╭─֍〔 ıll *ArullOfc* llı 〕֍─
 ⬡ Perintah ini hanya untuk owner bot
 ╰─────────────────֍`,
-    mods: `╭─֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕֍─
+    mods: `╭─֍〔 ıll *ArullOfc* llı 〕֍─
 ⬡ Perintah ini hanya untuk moderator bot
 ╰─────────────────֍`,
-    premium: `╭─֍〔 ıll 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 𝐎𝐍𝐋𝐘 llı 〕֍─
+    premium: `╭─֍〔 ıll 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 llı 〕֍─
 ⬡ Fitur ini hanya tersedia untuk user *Premium*
 ╰─────────────────֍`,
     group: `╭─֍〔 ıll 𝐆𝐑𝐎𝐔𝐏 𝐎𝐍𝐋𝐘 llı 〕֍─
@@ -795,7 +795,7 @@ global.dfail = (type, m, conn) => {
     private: `╭─֍〔 ıll 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐂𝐇𝐀𝐓 𝐎𝐍𝐋𝐘 llı 〕֍─
 ⬡ Fitur ini hanya dapat digunakan diprivate chat
 ╰─────────────────֍`,
-    admin: `╭─֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕֍─
+    admin: `╭─֍〔 ıll *Admin* llı 〕֍─
 ⬡ Fitur ini hanya tersedia untuk admin grup!!
 ╰─────────────────֍`,
     botAdmin: `╭─֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕֍─
