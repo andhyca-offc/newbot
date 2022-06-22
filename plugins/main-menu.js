@@ -313,8 +313,6 @@ let menuu = `┏━━〔 ıll INFO USER llı 〕━㉿
 ◎ Chat Ban : ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
 ◎ User Ban : ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
 ┗━━━━━━━━━━━━━㉿
-   ♡ ㅤ     ❍ㅤ       ⎙ㅤ       ⌲
-
 ⫹⫺ Date  : ${week} ${date}
 ⫹⫺ Time : ${wib}
 `
@@ -322,9 +320,9 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
         listMessage: {
             title: `*${ucapan()} ${name}*`,
             description: menuu,
-            buttonText: '🐤𝐊𝐋𝐈𝐊 𝐃𝐈𝐒𝐈𝐍𝐈 𝐂𝐎𝐊🐤',
+            buttonText: '𝐊𝐋𝐈𝐊 𝐃𝐈𝐒𝐈𝐍𝐈',
             listType: 1,
-            footerText: "📮 𝚂ilahkan Pilih Menu Dibawah Ini🤖",
+            footerText: "ᴀʀᴜʟʟᴏꜰᴄ",
             mtype: 'listMessage',
             sections: [
               {
@@ -535,28 +533,28 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
              {
              urlButton: {
-               displayText: 'GROUP BOT', 
+               displayText: 'Group Bot', 
                url: gc
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'PEMILIK BOT ',
+               displayText: 'Pemilik Bot',
                id: '.owner',
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'DONASI ANJ',
+               displayText: 'Donasi',
                id: '.donasi',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: ' THANKS TO',
+               displayText: ' Thanks To',
                id: '.tqto',
              }
            }]
