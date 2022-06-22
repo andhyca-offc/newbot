@@ -608,17 +608,17 @@ function clockString(ms) {
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "tidur gih sana"
-  if (time >= 4) {
-    res = "Hallo👋"
+  if (time >= 5) {
+    res = "Selamat pagi🌅 kak"
   }
   if (time > 10) {
-    res = "Hallo👋"
+    res = "Selamat siang🏜️ kak"
   }
   if (time >= 15) {
-    res = "Hallo👋"
+    res = "Selamat sore🌄 kak"
   }
   if (time >= 18) {
-    res = "Hallo👋"
+    res = "Selamat malam🌌 kak"
   }
   return res
 }
