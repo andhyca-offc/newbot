@@ -1,4 +1,4 @@
-![IMG_20220320_184923_554](https://user-images.githubusercontent.com/107316046/173366989-94b6f61a-5592-4620-8464-a85fcf960101.jpg)
+![https://telegra.ph/file/23cc916264b9c0755a3a2.jpg](https://user-images.githubusercontent.com/107316046/173366989-94b6f61a-5592-4620-8464-a85fcf960101.jpg)
 
 
 </p>
