@@ -780,13 +780,13 @@ global.dfail = (type, m, conn) => {
   let name = conn.getName(m.sender)
   let msg = {
     rowner: `╭─֍〔 ıll *OWNER* llı 〕֍─
-⬡ Perintah ini hanya untuk *ArullOfc*
+⬡ Perintah ini hanya untuk *pemilik bot*
 ╰─────────────────֍`,
     owner: `╭─֍〔 ıll *OWNER* llı 〕֍─
-⬡ Perintah ini hanya untuk *ArullOfc*
+⬡ Perintah ini hanya untuk *pemilik bot*
 ╰─────────────────֍`,
     mods: `╭─֍〔 ıll *OWNER* llı 〕֍─
-⬡ Perintah ini hanya untuk *ArullOfc*
+⬡ Perintah ini hanya untuk *pemilik bot*
 ╰─────────────────֍`,
     premium: `╭─֍〔 ıll *PREMIUM* llı 〕֍─
 ⬡ Fitur ini hanya tersedia untuk user *Premium*
@@ -797,7 +797,7 @@ global.dfail = (type, m, conn) => {
     private: `╭─֍〔 ıll *PRIVATE* llı 〕֍─
 ⬡ Fitur ini hanya dapat digunakan diprivate chat
 ╰─────────────────֍`,
-    admin: `╭─֍〔 ıll *GROUP* llı 〕֍─
+    admin: `╭─֍〔 ıll *ADMIN GROUP* llı 〕֍─
 ⬡ Fitur ini hanya tersedia untuk admin grup!!
 ╰─────────────────֍`,
     botAdmin: `╭─֍〔 ıll *WARNING* llı 〕֍─
