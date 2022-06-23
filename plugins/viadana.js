@@ -24,7 +24,7 @@ let handler = async (m, { conn }) => {
 ║ 
 ╠═ ©2022
 ╠═ Scrip original by ArullOfc
-╠═〘 ${namabot} 〙 ═`.trim(), m)
+╠═〘 ArullBotzMD 〙 ═`.trim(), m)
 }
 
 handler.command = /^viadana$/i
