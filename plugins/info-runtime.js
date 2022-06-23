@@ -3,9 +3,9 @@ let handler = async (m, { conn }) => {
     let uptime = clockString(_uptime)
 
 m.reply(`
-⊙──❲ R U N T I M E 〕
+⊙──❲ 𝗥𝗨𝗡𝗧𝗜𝗠𝗘 〕
 │ 
-├⊙ Krizyn Aktif Selama ${uptime}
+├⊙ ᴮᵒᵗ ᴬᵏᵗⁱᶠ ˢᵉˡᵃᵐᵃ ${uptime}
 │
 ⊙──────
     `)
