@@ -155,12 +155,10 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
     default:
       if (!/[01]/.test(command)) throw `
 ┌〔 Daftar Opsi 〕
-│ ${isOwner ? '├ antispam\n├ backup\n├ clear\n├ autoread\n├ grouponly\n├ nsfw\n├ public\n├ clear\n├ mycontact\n├ ephe' : ''}
+│ ${isOwner ? '├ autoread\n├ public\n├ mycontact' : ''}
 ├ antilink
 ├ autolevelup
-├ document
 ├ welcome
-│ 
 └────
 Contoh:
 ${usedPrefix}on welcome
