@@ -1,6 +1,6 @@
 /**
 * SCRIPT BOT ORI by hyzer official
-* CREATOR BY KRIZYN OFFICIAL
+* CREATOR BY ArullOfc
 * MAU BANYAK LAGI FITUR NYA 
 * RECODE SENDIRI BANH JANGAN MAU ENAK AJA
 * NOTE MASIH ADA BUG STIKER DAN LAIN 
@@ -322,7 +322,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             description: menuu,
             buttonText: '𝐊𝐋𝐈𝐊 𝐃𝐈𝐒𝐈𝐍𝐈',
             listType: 1,
-            footerText: "ᴀʀᴜʟʟᴏꜰᴄ",
+            footerText: "PILIH MENU DIBAWAH",
             mtype: 'listMessage',
             sections: [
               {
