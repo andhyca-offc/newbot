@@ -437,7 +437,7 @@ module.exports = {
                     sDemote: '',
                     delete: true,
                     antiLink: true,
-                    sticker: true
+                    sticker: true,
                     viewonce: true,
                     antiToxic: true,
                 }
