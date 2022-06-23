@@ -787,7 +787,7 @@ global.dfail = (type, m, conn) => {
     premium: `╭─֍〔 ıll *PREMIUM* llı 〕֍─
 ⬡ Fitur ini hanya tersedia untuk user *Premium*
 ╰─────────────────֍`,
-    group: `╭─֍〔 ıll *GROUP llı 〕֍─
+    group: `╭─֍〔 ıll *GROUP* llı 〕֍─
 ⬡ Fitur ini hanya dapat digunakan didalam grup!!
 ╰─────────────────֍`,
     private: `╭─֍〔 ıll *PRIVATE* llı 〕֍─
