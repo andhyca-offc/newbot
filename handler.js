@@ -424,9 +424,8 @@ module.exports = {
                     if (!('sDemote' in chat)) chat.sDemote = ''
                     if (!('delete' in chat)) chat.delete = true
                     if (!('antiLink' in chat)) chat.antiLink = true
-                    if (!('viewonce' in chat)) chat.viewonce = false
-                    if (!('antiToxic' in chat)) chat.antiToxic = false
-                } else global.db.data.chats[m.chat] = {
+                    if (!('viewonce' in chat)) chat.viewonce = true
+                  } else global.db.data.chats[m.chat] = {
                     isBanned: false,
                     welcome: true,
                     detect: false,
@@ -436,9 +435,8 @@ module.exports = {
                     sDemote: '',
                     delete: true,
                     antiLink: true,
-                    viewonce: false,
-                    antiToxic: true,
-                }
+                    viewonce: true,
+                  }
             } catch (e) {
                 console.error(e)
             }
