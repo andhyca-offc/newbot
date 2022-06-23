@@ -1,5 +1,5 @@
 /*let handler  = async (m, { conn, text }) => {
-  let chats = conn.chats.all().filter(v => !v.read_only && v.message).map(v => v.jid)
+  let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats && !chat.metadata?.read_only && !chat.metadata?.announce).map(v => v[0])
   let content = await conn.cMod(m.chat, m, /bc|broadcast/i.test(text) ? text : text + '\n' + readMore + '')
   for (let id of chats) conn.copyNForward(id, content)
   conn.reply(m.chat, `_Berhasil mengirim pesan broadcast ke ${chats.length} chat_`, m)
@@ -10,7 +10,7 @@ let handler  = async (m, { conn, text }) => {
   let thumb = 'https://telegra.ph/file/b344d0c10f1f7f47ed657.jpg'
   let chats = conn.chats.all().filter(v => !v.read_only && v.message).map(v => v.jid)
   let content = await conn.cMod(m.chat, m, /bc|broadcast/i.test(text) ? text : text )
-  for (let id of chats) /*conn.send2ButtonLoc*/conn.send2Button(id, `${text}`.trim(), `\n╭─[ *_JAROTBOTZ_* ]─✧
+  for (let id of chats) /*conn.send2ButtonLoc*/conn.send2Button(id, `${text}`.trim(), `\n╭─[ *_ArullBotzMD_* ]─✧
 ╰─────···\n${time}`, 'Owner', '.owner2', 'Menu', '.menu', /*'Donasi', '.ds'*/)
   conn.reply(m.chat, `_Berhasil mengirim pesan broadcast ke ${chats.length} chat_`, m)
 }
