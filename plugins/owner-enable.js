@@ -1,9 +1,8 @@
 let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isROwner }) => {
   let isEnable = /true|enable|(turn)?on|1/i.test(command)
-  let chat = db.data.chats[m.chat]
-  let user = db.data.users[m.sender]
-  let setting = db.data.settings[conn.user.jid]
-  let set = db.data.settings[conn.user.jid]
+  let chat = global.db.data.chats[m.chat]
+  let user = global.db.data.users[m.sender]
+  let setting = global.db.data.settings
   let type = (args[0] || '').toLowerCase()
   let isAll = false
   let isUser = false
