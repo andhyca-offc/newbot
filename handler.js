@@ -439,7 +439,7 @@ module.exports = {
                     antiLink: true,
                     viewonce: true,
                     antiToxic: true,
-                    simi: false
+                    simi: false,
                   }
             } catch (e) {
                 console.error(e)
