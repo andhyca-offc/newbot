@@ -5,7 +5,7 @@ itemCount: 999999999999, status: 1,
 message: `Join Group Bot\n\nhttps://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS`,
 orderTitle: 'B',
 sellerJid: '0@s.whatsapp.net',
-thumbnail: fs.readFileSync('https://telegra.ph/file/fe53b93567b4263ea0175.jpg')
+thumbnail: fs.readFileSync('./src/IMG-20211112-WA0021.jpg')
 }}, {contextInfo: null, quoted: m})
 conn.relayWAMessage(prep)
 }
