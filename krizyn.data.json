@@ -21,7 +21,7 @@
       }
     },
     "signedPreKey": {
-      "keyPair"crvrgrb: {
+      "keyPair": {
         "private": {
           "type": "Buffer",
           "data": "COK/IefPEnUSt65Lju9zSf+Bg8f2lmTvxm0y3fGjL2g="
