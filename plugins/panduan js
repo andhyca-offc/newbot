@@ -23,7 +23,7 @@ ${deskripsi}
 Query: ${search}
 `.trim(), watermark, 'Owner', '.owner', 'Menu', '.?', 'Rules', '.rules', m)
 }
-handler.tags = ['main']
+handler.tags = ['info']
 handler.help = ['panduan']
 handler.command = /^(panduan|how)$/i
 module.exports = handler
