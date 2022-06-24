@@ -41,7 +41,7 @@ Buka halaman HEROKU => https://heroku.com
 
 [ 📌 Note : KALAU ADA KESALAHAN TANYA OWNER ]
 `.trim()
-conn.sendButtonLoc(m.chat,await (await fetch(fla + 'Tutorial')).buffer(),str, `ArullOfc`, 'Back', '.menu', m )
+conn.sendButtonLoc(m.chat,await (await fetch(fla + 'https://telegra.ph/file/679b1db1bfe9d383236c8.jpg')).buffer(),str, `ArullOfc`, 'Back', '.menu', m )
 }
 handler.help = ['carabuatbot','cbb']
 handler.tags = ['tutor','main']
