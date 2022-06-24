@@ -39,9 +39,9 @@ m.reply(wait)
     else throw `Gagal${m.isGroup ? ', balas gambarnya!' : ''}`
   }
 }
-handler.help = ['stiker <reply gambar>']
+handler.help = ['stiker']
 handler.tags = ['sticker']
-handler.command = /^s(tic?ker)?(gif)?(wm)?$/i
+handler.command = /^stiker|s|sticker)?$/i
 
 module.exports = handler
 
