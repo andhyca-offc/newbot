@@ -41,7 +41,7 @@ Buka halaman HEROKU => https://heroku.com
 
 [ 📌 Note : KALAU ADA KESALAHAN TANYA OWNER ]
 `.trim()
-conn.sendButtonLoc(m.chat,await (await fetch(fla + 'Tutorial')).buffer(),str, `${wm}`, 'Script zifa', '.sc', m )
+conn.sendButtonLoc(m.chat,await (await fetch(fla + 'Tutorial')).buffer(),str, `ArullOfc`, 'Back', '.menu', m )
 }
 handler.help = ['carabuatbot','cbb']
 handler.tags = ['tutor','main']
