@@ -320,9 +320,9 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
         listMessage: {
             title: `*${ucapan()} ${name}*`,
             description: menuu,
-            buttonText: '𝐊𝐋𝐈𝐊 𝐃𝐈𝐒𝐈𝐍𝐈',
+            buttonText: 'silahkan pilih',
             listType: 1,
-            footerText: "PILIH MENU DIBAWAH",
+            footerText: "🤖kalo ada yang eror harap dimaklumi\n☰Creator By ©ArullOfc",
             mtype: 'listMessage',
             sections: [
               {
