@@ -22,7 +22,7 @@
     },
     "signedPreKey": {
       "keyPair": {
-        "private": {
+        "private": {ksksk
           "type": "Buffer",
           "data": "2EjyhC7eqsvTCR7n3UV1xGvHWOtJfMfGgptLBbLY624="
         },
