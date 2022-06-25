@@ -14,6 +14,6 @@ conn.sendButton(m.chat, str, `${botol}`, `⋮☰ Menu`, `.menu`, m)
 }
 handler.help = ['yutube']
 handler.tags = ['info']
-handler.command = /^ytzi$|ytrul$/i
+handler.command = /^ytzi$/i
 
 module.exports = handler
