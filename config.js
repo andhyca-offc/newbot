@@ -3,6 +3,7 @@
 // SC ORI HYZER
 // CREATOR KRIZYN OFC
 // RECODE BY RIEL OFC
+// RECODE BACK BY ARULL OFC
 
 //=============『 Utama 』================== //
 global.owner = ['6285822347348'] 
