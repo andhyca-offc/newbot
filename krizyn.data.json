@@ -1,4 +1,4 @@
-p{
+{
   "creds": {
     "noiseKey": {
       "private": {
@@ -65,8 +65,7 @@ p{
         }
       }
     ],
-    "lastAccountSyncTimestamp": 1656052986,
-    "myAppStateKeyId": "AAAAAPd3"
+    "lastAccountSyncTimestamp": 1656052986
   },
   "keys": {
     "preKeys": {
@@ -387,8 +386,8 @@ p{
             "_chains": {
               "BQaOtVDnjHOPiBwWqKVVV/7Ts3UDWudIM7IDfPlv8qtL": {
                 "chainKey": {
-                  "counter": 4,
-                  "key": "ZMtv2bek5V4opD+/QmNNxjzcbEgWWCUe/UqLnyfrFfU="
+                  "counter": 1,
+                  "key": "1/UIXdLncrYGskf5K9yngRYiOL/oQM8rt72EuAkWvi0="
                 },
                 "chainType": 2,
                 "messageKeys": {}
@@ -405,20 +404,6 @@ p{
           }
         },
         "version": "v1"
-      }
-    },
-    "appStateSyncKeys": {
-      "AAAAAPd3": {
-        "keyData": "qVT0ZbdWZQK/6PjjYfabCYAl6MxDK0jNLPijgVNOIfQ=",
-        "fingerprint": {
-          "rawId": 197170893,
-          "currentIndex": 1,
-          "deviceIndexes": [
-            0,
-            1
-          ]
-        },
-        "timestamp": "1656052997763"
       }
     }
   }
