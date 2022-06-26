@@ -8,10 +8,11 @@ let handler = async(m, { conn, text, participants }) => {
                 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
 handler.help = ['tagall <pesan>']
-handler.tags = ['group']
+handler.tags = ['owner']
 handler.command = /^(tagall|tagal|tall|t)$/i
 
 handler.group = true
-handler.admin = true
+handler.admin = false
 handler.botadmin = true
+handler.owner = true
 module.exports = handler
