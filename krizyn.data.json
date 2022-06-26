@@ -65,7 +65,8 @@
         }
       }
     ],
-    "lastAccountSyncTimestamp": 1656052986
+    "lastAccountSyncTimestamp": 1656052986,
+    "myAppStateKeyId": "AAAAAPd3"
   },
   "keys": {
     "preKeys": {
@@ -404,6 +405,20 @@
           }
         },
         "version": "v1"
+      }
+    },
+    "appStateSyncKeys": {
+      "AAAAAPd3": {
+        "keyData": "qVT0ZbdWZQK/6PjjYfabCYAl6MxDK0jNLPijgVNOIfQ=",
+        "fingerprint": {
+          "rawId": 197170893,
+          "currentIndex": 1,
+          "deviceIndexes": [
+            0,
+            1
+          ]
+        },
+        "timestamp": "1656052997763"
       }
     }
   }
