@@ -1,4 +1,4 @@
-{pp
+{
   "creds": {
     "noiseKey": {
       "private": {
@@ -42,7 +42,7 @@
     "nextPreKeyId": 31,
     "firstUnuploadedPreKeyId": 31,
     "serverHasPreKeys": true,
-    "account": { wah
+    "account": {
       "details": "CM2tgl4Q8rnVlQYYAQ==",
       "accountSignatureKey": "FrIAdihCxvcX4Cg3JkX7YwgAWqkBokvp8ESAnDNgF1c=",
       "accountSignature": "lAFajPs5u+vS6t8M3MSQbR7Yt2MdOPMIUBgXBXWbf6xEaU2wM3gHNuqUmxZbFUy3k3KwextAMBIrr01E+MDoAw==",
