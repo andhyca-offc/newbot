@@ -9,5 +9,5 @@ handler.tags = ['owner']
 
 handler.command = /^del|delete|unsend?$/i
 handler.register = false
-handler owner = true
+handler.owner = true
 module.exports = handler
