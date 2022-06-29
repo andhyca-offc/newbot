@@ -322,7 +322,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             description: menuu,
             buttonText: 'silahkan pilih',
             listType: 1,
-            footerText: "🤖kalo ada yang eror harap dimaklumi\n☰Creator By ©ArullOfc",
+            footerText: "☰𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐁𝐲 ©𝐀𝐫𝐮𝐥𝐥𝐎𝐟𝐜",
             mtype: 'listMessage',
             sections: [
               {
