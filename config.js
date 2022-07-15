@@ -6,17 +6,17 @@
 // RECODE BACK BY ARULL OFC
 
 //=============『 Utama 』================== //
-global.owner = ['6285822347348'] 
-global.mods = ['6285822347348'] 
-global.prems = ['6285822347348'] 
+global.owner = ['62895330584590','6285872761910','6285794408499','6287829536442'] 
+global.mods = ['62895330584590','6285872761910','6285794408499','6287829536442'] 
+global.prems = ['62895330584590','6285872761910','6285794408499','6287829536442'] 
 
 //=============『 Info Owner 』============== //
 global.nameowner = 'ArullOfc ✰'
-global.numberowner = '6285822347348'
+global.numberowner = '62895330584590','6285872761910','6285794408499','6287829536442'
 global.instagram = 'https://instagram.com/sahrulwara_____'
 global.github = 'https://github.com/warikrr'
-global.dana = '085822347348'
-global.pulsa = '085822347348'
+global.dana = '085872761910'
+global.pulsa = '085872761910'
 global.gopay = ''
 
 //=============『 Info Bot 』=================//
@@ -31,21 +31,21 @@ global.fotonya1 = 'https://telegra.ph/file/57f6828f84e24c3c58dfe.jpg' //ganti ja
 global.fotonya2 = 'https://telegra.ph/file/57f6828f84e24c3c58dfe.jpg' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = '↻ArullBotz𝙼𝙳'
+global.wm = '                「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ あ⁩ 」'
 global.watermark = wm
-global.wm2 = 'ᯤ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 𝙱𝚈 ArullOfc ×፝֟͜×'
-global.wm3 = 'ᯤ Arull𝙾𝙵𝙲'
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ 𝐴𝑛𝑑ℎ𝑦𝑐𝑎 𝗕𝗢𝗧'
 global.htki = '––––––『' 
 global.htka = '』––––––'
 global.media = 'https://telegra.ph/file/57f6828f84e24c3c58dfe.jpg'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.wait = '⏳Tunggu Sedang Proses...'
-global.eror = '_*🚨 Server Bot Sedang Error*_'
+global.eror = '*ᴡᴀʀɴɪɴɢ* • sᴇʀᴠᴇʀ ʙᴏᴛ ᴀʀᴇ ᴇʀᴏʀ'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
-global.stiker_wait = '⏳ Stiker sedang Proses'
+global.stiker_wait = '*ᴄᴏᴍᴍᴀɴᴅ* • sᴛɪᴄᴋᴇʀ ᴀʀᴇ ᴍᴀᴅᴇ'
 global.packname = 'Sticker By'
-global.author = '@ArullOfc✵'
+global.author = '☂︎\n𝐀\n𝐧\n𝐝\n𝐡\n𝐲\n𝐜\n𝐚\n-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
@@ -84,7 +84,7 @@ global.APIKeys = { // APIKey Here
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://pencarikode.xyz': 'pais', 
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
-  'https://zekais-api.herokuapp.com': 'apikeymu',
+  'https://zekais-api.herokuapp.com': 'apivinz',
   'https://api.lolhuman.xyz': 'Deffbotz',
 }
 
