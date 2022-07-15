@@ -11,7 +11,8 @@ let krizyn = `
 ┬
 ╰──────────···
 ╭─────{ *H͓̽U͓̽K͓̽U͓̽M͓̽* }─────
-│•KυႦʅσƈƙ Lυ αɳʝιɳɠ
+│• ʙʟᴏᴄᴋɪʀ ᴅᴇɴɢᴀɴ ᴡᴀᴋᴛᴜ ᴘᴇʀᴍᴀɴᴇɴ
+│• ᴅɪ ʙᴀɴɴᴇᴅ sᴇʟᴀᴍᴀ-ɴʏᴀ
 ╰──────────···
 	`.trim()
   let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya2)).buffer()}, { upload: conn.waUploadToServer }) 
@@ -20,31 +21,31 @@ let krizyn = `
             hydratedTemplate: {
                 hydratedContentText: krizyn,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: '🤖 PILIH MENU BIBAWAH',
+           hydratedFooterText: 'CLICK HERE',
            hydratedButtons: [{
              urlButton: {
-               displayText: '🤖GroupBot🤖',
-               url: 'https://chat.whatsapp.com/Hs5rHr27xu49VRLgdliMfR'
+               displayText: 'GRUP OFFICIAL 💌',
+               url: 'https://chat.whatsapp.com/DTtOcmrCAkKFrVZJD6jb6M'
              }
 
            },
                 {
                urlButton: {
-               displayText: 'YOUTUBE ME',
-               url: 'https://youtu.be/tH-0Uq_s_H4'
+               displayText: 'IG CREATOR 📸',
+               url: 'https://instagram.com/andhycarsrofficial'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'JANGAN DIPENCET',
-               id: '',
+               displayText: 'SEWA BOT',
+               id: '.sewabot',
              }
              
            },
                {
              quickReplyButton: {
-               displayText: 'MENU',
+               displayText: 'LIST MENU',
                id: '.menu',
              }
              
