@@ -18,7 +18,7 @@ let handler = async (m, { conn }) => {
    let old = performance.now()
    let neww = performance.now()
    let speed = `${neww - old}`
-   let finish = `✔️Berhasil mempercepat Bot hingga\n${speed} milisec!`
+   let finish = `*「✅」 Berhasil mempercepat Bot hingga\n${speed} milisec!*`
 
      conn.reply(m.chat, finish, m)
 }
