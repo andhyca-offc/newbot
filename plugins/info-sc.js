@@ -3,15 +3,15 @@ let ye = `@${m.sender.split`@`[0]}`
 let esce = `
 Knp kak ${ye} Lagi Nyari Sc Ya? 
 
-𝘊𝘈𝘙𝘐 𝘈𝘑𝘈 𝘋𝘐 𝘠𝘖𝘜 𝘛𝘜𝘉𝘌
+𝘐𝘕𝘐 𝘚𝘊𝘙𝘐𝘗𝘛𝘕𝘠𝘈 𝘝𝘐𝘈 𝘎𝘐𝘛𝘏𝘜𝘉
 
-𝚈𝙾𝚄 𝚃𝚄𝙱𝙴 :
-https://youtube.com/channel/UC1ikkqsPvtWuE_QonsET1yg
+𝙶𝙸𝚃 𝙷𝚄𝙱 :
+https://github.com/andhyca-ofc/NewBot
 
 JOIN GC BOT:
-https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS
+https://chat.whatsapp.com/DTtOcmrCAkKFrVZJD6jb6M
 
-conn.sendBut(m.chat, esce, 'Jangan Lupa subscribe ', 'Thanks', '.menu', m) 
+conn.sendBut(m.chat, esce, 'Jangan Lupa Stars-Nya Dan Follow Github-Nya', 'Thanks', '.menu', m) 
 }
 handler.help = ['sc']
 handler.tags = ['info']
