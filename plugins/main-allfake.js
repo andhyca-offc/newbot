@@ -18,8 +18,8 @@ key: {
 						"mimetype": "image/jpeg",
 						"jpegThumbnail": fs.readFileSync('./media/siang.jpg') //Gambarnye
 					},
-					"title": "MikeBot", //Kasih namalu 
-					"description": "SELF BOT", 
+					"title": "「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜× 」", //Kasih namalu 
+					"description": "⫹⫺ WhatsApp 𝗕𝗢𝗧", 
 					"currencyCode": "USD",
 					"priceAmount1000": "2000",
 					"retailerId": "Ghost",
@@ -39,8 +39,8 @@ const ftroli = {
                             itemCount : 1,
                             status: 1,
                             surface : 1,
-                            message: 'MikeBot', //Kasih namalu
-                            orderTitle: 'Bang',
+                            message: '𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ', //Kasih namalu
+                            orderTitle: '⫹⫺ WhatsApp 𝗕𝗢𝗧',
                             thumbnail: fs.readFileSync('./media/siang.jpg'), //Gambarnye
                             sellerJid: '0@s.whatsapp.net'
           
@@ -54,7 +54,7 @@ const flokasi = {
                         },
        message: {
                     locationMessage: {
-                    name: 'Russia',
+                    name: 'Korea Selatan',
                     jpegThumbnail: fs.readFileSync('./media/siang.jpg')
                           }
                         }
@@ -107,7 +107,7 @@ const fdocs = {
                         },
        message: {
                     documentMessage: {
-                    title: 'Halo bang', 
+                    title: '「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜× 」', 
                     jpegThumbnail: fs.readFileSync('./media/siang.jpg')
                           }
                         }
@@ -121,10 +121,10 @@ const fvideo = {
                 },
 	 message: { 
                  "videoMessage": { 
-                 "title":"hallo bang",
+                 "title":"「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜× 」",
                  "h": `Hmm`,
-                 'seconds': '99999', 
-                 'caption': 'Halo bang',
+                 'seconds': '9999999999999', 
+                 'caption': '⫹⫺ WhatsApp 𝗕𝗢𝗧',
                  'jpegThumbnail': fs.readFileSync('./media/siang.jpg')
                         }
                        }
@@ -139,9 +139,9 @@ const fgclink = {
 	"message": {
 		"groupInviteMessage": {
 			"groupJid": "0-1625305606@g.us",
-			"inviteCode": "mememteeeekkeke",
-			"groupName": "Mengter", 
-            "caption": "Halo bang jagoo", 
+			"inviteCode": "https://chat.whatsapp.com/DTtOcmrCAkKFrVZJD6jb6M",
+			"groupName": "Andhyca || User 「BOT」 𝕆𝔽ℂ", 
+            "caption": "𝐉𝐨𝐢𝐧 𝐆𝐫𝐮𝐩 𝐁𝐨𝐭𝐳 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥", 
             'jpegThumbnail': fs.readFileSync('./media/siang.jpg')
 		}
 	}
@@ -155,11 +155,11 @@ const fgif = {
                 },
 	 message: { 
                  "videoMessage": { 
-                 "title":"hallo bang",
+                 "title":"「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜× 」",
                  "h": `Hmm`,
-                 'seconds': '99999', 
+                 'seconds': '999999999999999', 
                  'gifPlayback': 'true', 
-                 'caption': 'Halo bang',
+                 'caption': '⫹⫺ WhatsApp 𝗕𝗢𝗧',
                  'jpegThumbnail': fs.readFileSync('./media/siang.jpg')
                         }
                        }
@@ -173,8 +173,8 @@ const ftextt = {
                 },
 	 message: { 
 		"extendedTextMessage": {
-                 "text":"hallo bang",
-                 "title": `Hmm`,
+                 "text":"⫹⫺ WhatsApp 𝗕𝗢𝗧",
+                 "title": `「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜× 」`,
                  'jpegThumbnail': fs.readFileSync('./media/siang.jpg')
                         }
 	                  } 
