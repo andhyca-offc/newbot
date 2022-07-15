@@ -2,7 +2,7 @@ let fs = require('fs')
 let fetch = require('node-fetch')
 let handler = m => m
 handler.all = async function (m) {
-	let pp = 'https://telegra.ph/file/0c0ed562f6ad3d7bde4c0.jpg'
+	let pp = 'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg'
 	try {
 		pp = await this.profilePictureUrl(m.sender, 'image')
 	} catch (e) {
