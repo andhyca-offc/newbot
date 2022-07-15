@@ -11,24 +11,24 @@ global.mods = ['62895330584590','6285872761910','6285794408499','6287829536442']
 global.prems = ['62895330584590','6285872761910','6285794408499','6287829536442'] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'ArullOfc ✰'
+global.nameowner = '🅚︎Ⓘ︎🅝︎Ⓖ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ︎'
 global.numberowner = '62895330584590','6285872761910','6285794408499','6287829536442'
-global.instagram = 'https://instagram.com/sahrulwara_____'
-global.github = 'https://github.com/warikrr'
+global.instagram = 'https://instagram.com/andhycarsrofficial'
+global.github = 'https://github.com/andhyca-offc'
 global.dana = '085872761910'
 global.pulsa = '085872761910'
-global.gopay = ''
+global.gopay = '085872761910'
 
 //=============『 Info Bot 』=================//
-global.namebot = 'ArullBotzMD'
-global.gc = 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
-global.web = 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
-global.webm = 'https://saweria.co/arullOfc'
-global.price1 = '𝐍𝐈𝐇 𝐁𝐀𝐍𝐆 𝐋𝐈𝐒𝐓 𝐒𝐄𝐖𝐀𝐍𝐘𝐀\n\n》1 MINGGU Rp 5.000\nMAKSIMAL 1 GRUP\n》1 BULAN  Rp 10.000\nMAKSIMAL 1 GRUP \n》 Rp 20.000\nMAKSIMAL 1 GRUP + PREMIUM\n》PERMANEN Rp 30.000\nMAKSIMAL 3 GRUP\n》4 BULAN  Rp 25.000\nMAKSIMAL 2 GRUP + PREMIUM\n\nMAU NAMBAH GRUP LAGI \nPERMANEN Rp 25.000\nMAKSIMAL 2 GRUP'
+global.namebot = '𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ'
+global.gc = 'https://chat.whatsapp.com/DTtOcmrCAkKFrVZJD6jb6M'
+global.web = 'https://youtube.com/channel/UCtt_8qM9i8x83BY_U8oozOg' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.webm = '-'
+global.price1 = '                「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ あ⁩ 」\n\n╭━━━━「 *SEWA* 」\n┊⫹⫺ *Hemat:* _7k/grup (1 minggu)_\n┊⫹⫺ *Normal:* _15k/grup (1 bulan)_\n┊⫹⫺ *Standar:* _25k/grup (5 bulan)_\n┊⫹⫺ *Pro:* _35k/grup (12 bulan)_/n┊⫹⫺ *Vip:* = _50k/grup (Permanent & 1 bulan *Premium*)_\n╰═┅═━––––––๑\n\n╭━━━━「 *PREMIUM* 」\n┊⫹⫺ *Hemat:* _5k (1 minggu)_\n┊⫹⫺ *Normal:* _17k (1 bulan)_/n┊⫹⫺ *Pro:* _25k (4 bulan)_/n┊⫹⫺ *Vip:* _33k (8 bulan)_\n┊⫹⫺ *Permanent:* = _48k (Unlimited)_\n╰═┅═━––––––๑\n\n*⫹⫺ PAYMENT:*\n• *Pulsa:* [${pulsa}]\n• *Dana:* [${dana}]\n• *GoPay:* [${gopay}]\n\n–––––– *🐾 Kebijakan* ––––––\n🗣️: Kak, Kok harganya mahal banget?\n💬: Ada harga ada kualitas kak, mau tawar menawar? boleh, silahkan chat owner aja (maximal 3K)\n\n🗣️: Scam ga nih kak?\n💬: Dijamin aman, amanah, dan terpercaya 100%'
 
 //=======『 Tampilan Dan Lainnya 』============//
-global.fotonya1 = 'https://telegra.ph/file/57f6828f84e24c3c58dfe.jpg' //ganti jadi foto bot mu
-global.fotonya2 = 'https://telegra.ph/file/57f6828f84e24c3c58dfe.jpg' //ini juga ganti 
+global.fotonya1 = 'https://telegra.ph/file/b37101aef3f91114fb7ac.jpg' //ganti jadi foto bot mu
+global.fotonya2 = 'https://telegra.ph/file/c5304584967df9f26aecd.jpg' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
 global.wm = '                「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ あ⁩ 」'
@@ -37,14 +37,14 @@ global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁�
 global.wm3 = '⫹⫺ 𝐴𝑛𝑑ℎ𝑦𝑐𝑎 𝗕𝗢𝗧'
 global.htki = '––––––『' 
 global.htka = '』––––––'
-global.media = 'https://telegra.ph/file/57f6828f84e24c3c58dfe.jpg'
+global.media = 'https://telegra.ph/file/74b2e50596cacfc5b25ad.jpg'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.wait = '⏳Tunggu Sedang Proses...'
+global.wait = '*ᴘʀᴏᴄᴇssɪɴɢ* • ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ ᴍᴏᴍᴍᴇɴᴛ'
 global.eror = '*ᴡᴀʀɴɪɴɢ* • sᴇʀᴠᴇʀ ʙᴏᴛ ᴀʀᴇ ᴇʀᴏʀ'
-global.benar = 'Benar ✅\n'
-global.salah = 'Salah ❌\n'
-global.stiker_wait = '*ᴄᴏᴍᴍᴀɴᴅ* • sᴛɪᴄᴋᴇʀ ᴀʀᴇ ᴍᴀᴅᴇ'
-global.packname = 'Sticker By'
+global.benar = '*ᴅᴇsɪᴄɪᴏɴ* • sᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ᴡʀᴏɴɢ\n'
+global.salah = '*ᴅᴇsɪᴄɪᴏɴ* • ʏᴏᴜ ᴀʀᴇ ʀɪɢʜᴛ \n'
+global.stiker_wait = '*ᴄᴏᴍᴍᴀɴᴅ* • ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴs, sᴛɪᴄᴋᴇʀ ᴀʀᴇ ᴍᴀᴅᴇ'
+global.packname = '𝑆𝑡𝑖𝑐𝑘𝑒𝑟 𝐵𝑦'
 global.author = '☂︎\n𝐀\n𝐧\n𝐝\n𝐡\n𝐲\n𝐜\n𝐚\n-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}'
 
 //=============『 Apikey 』================== //
