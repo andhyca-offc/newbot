@@ -62,7 +62,7 @@ const defaultMenu = {
 ❏═┅═━–〈 *I N F O  C M D*
 ┊ *Ⓟ︎* = Premium
 ┊ *Ⓛ︎︎* = Limit
-┗––––––––––✦aaaa`,
+┗––––––––––✦`,
 }
 
 //━━━━━━━━[ CATEGORY ]━━━━━━━━//
