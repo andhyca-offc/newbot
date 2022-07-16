@@ -299,149 +299,167 @@ const fdoc = {
 
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
-let menuu = `┏━━〔 ıll INFO USER llı 〕━㉿
-┃⌬ Api : ${tag}
-┃⌬ Limit : ${limit}
-┃⌬ Role : ${role}
-┃⌬ Premium : ${global.prem ? 'Yes' : 'No'}
-┗━━━━━━━━━━━━━㉿
-┏━━〔 ıll INFO BOT llı 〕━㉿
-◎ Name : ${namebot}
-◎ Active : ${uptime}
-◎ User : ${Object.keys(global.db.data.users).length} User
-◎ Mode : ${global.opts['self'] ? 'Self' : 'public'}
-◎ Chat Ban : ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
-◎ User Ban : ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
-┗━━━━━━━━━━━━━㉿
-⫹⫺ Date  : ${week} ${date}
-⫹⫺ Time : ${wib}
+let menuu = `────━⃝┅ *D A S H B O A R D* ┅⃝━────
+
+「 *I N F O  C M D* 」
+*Ⓟ* = Premium
+*Ⓛ* = Limit
+
+         「 *Ʋser Ɩnfσrmαtισn* 」
+🌸• *ɴᴀᴍᴇ:* ${name}
+🌸• *ᴛᴀɢs:* ${tag}
+🌸• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+🌸• *ᴘʀᴇᴍɪᴜᴍ:* ${global.prem ? 'Yes' : 'No'}
+🌸• *ʟɪᴍɪᴛ:* ${limit}
+🌸• *ʟᴇᴠᴇʟ:* ${level}
+🌸• *ʀᴏʟᴇ:* ${role}
+
+
+
+         「 *Bσt Ɩnfσrmαtισn* 」
+🎐• *ᴜᴘᴛɪᴍᴇ:* ${uptime}
+🎐• *ᴛɪᴍᴇ:* ${wib} WIB
+🎐• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length} User
+🎐• *ᴄʜᴀᴛ ᴛᴇʀʙᴀɴɴᴇᴅ:* ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat
+🎐• *ᴘᴇɴɢɢᴜɴᴀ ᴛᴇʀʙᴀɴɴᴇᴅ:* ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna
+🎐• *ᴍᴏᴅᴇ:* ${global.opts['self'] ? 'Self' : 'publik'}
+
+
+               「 *𝐀𝐧𝐝𝐡𝐲𝐜𝐚-𝐌𝐝ོ BOT あ⁩* 」
+
+⫹⫺ 𝗧𝗶𝗺𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 : ${time}
+⫹⫺ 𝗗𝗮𝘁𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 : ${date}
 `
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
-            title: `*${ucapan()} ${name}*`,
-            description: menuu,
-            buttonText: 'LIST MENU',
+            title: `*------『 LIST MENU 』------*\n*${ucapan()} ${name}*\n\n`,
+            description: Silahkan Pilih Menu Yang Tersedia,
+            buttonText: 'CLICK HERE',
             listType: 1,
-            footerText: "☰𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐁𝐲 ©𝐀𝐫𝐮𝐥𝐥𝐎𝐟𝐜",
+            footerText: "📮 *Note:* Jika ada bug, error atau kesulitan dalam penggunaan, Silahkan laporkan/tanyakn kepada Owner.",
             mtype: 'listMessage',
             sections: [
               {
       
                 "rows": [{
-                  "title": `☰ ALL MENU`,
-                  "description": "Menampilkan Menu All",
+                  "title": `『🚦』 ✦ PLEASE READ THE RULLES`,
+                  "description": "Menampilkan semua command BOT",
                   "rowId": '.? all'
                   }, {
-                  "title": "☰ ABSEN MENU",
+                  "title": `『💬』 ✦ All`,
+                  "description": "Menampilkan semua command BOT",
+                  "rowId": '.? all'
+                  }, {
+                  "title": "『🗒️』 ✦ Absen",
                   "description": "Menampilkan Menu Absen",
                   "rowId": `${_p}? absen`
                 }, {
-                  "title": "☰ ANIME MENU",
-                  "description": "Menampilkan Menu Anime",
+                  "title": "『⛩️』 ✦ Anime",
+                  "description": "Apakah kamu suka anime?",
                   "rowId": `${_p}? anime`
                 }, {
-                  "title": "☰ STICKER  MENU",
-                  "description": "Menampilkan Menu Sticker",
+                  "title": "『🎨』 ✦ Sticker",
+                  "description": "Buat sticker DiBOT",
                   "rowId": `${_p}? sticker`
                 }, {
-                  "title": "☰ DOWNLOAD MENU",
-                  "description": "Menampilkan Menu Downloader",
+                  "title": "『📩』 ✦ Download",
+                  "description": "Download sesuatu DiBOT",
                   "rowId": `${_p}? downloader`
                 }, {
-                  "title": "☰ EXP & LIMIT MENU",
-                  "description": "Menampilkan Menu Exp",
+                  "title": "『✨』 ✦ Xp & Limit",
+                  "description": "Ayo tingkatkan pangkatmu!",
                   "rowId": `${_p}? xp`
                 }, {
-                  "title": "☰ FUN MENU",
-                  "description": "Menampilkan Menu Fun",
+                  "title": "『🧩』 ✦ Fun",
+                  "description": "Kamu sedang gabut? gunakan ini",
                   "rowId": `${_p}? fun`
                 }, {
-                  "title": "☰ GAME MENU",
-                  "description": "Menampilkan Menu Game",
+                  "title": "『🎮』 ✦ Game",
+                  "description": "Gamenya seru seru lho >-<",
                   "rowId": `${_p}? game`
                 }, {
-                  "title": "☰ GITHUB MENU",
+                  "title": "『📮』 ✦ Github",
                   "description": "Menampilkan Menu Github",
                   "rowId": `${_p}? github`
                 }, {
-                  "title": "☰ GROUP MENU",
-                  "description": "Menampilkan Menu Group",
+                  "title": "『🏢』 ✦ Group",
+                  "description": "Only Group",
                   "rowId": `${_p}? group`
                 }, {
-                  "title": "☰ IMAGE MENU",
-                  "description": "Menampilkan Menu Image",
+                  "title": "『🖼️』 ✦ Image",
+                  "description": "Pasti kamu sedang mencari gambar",
                   "rowId": `${_p}? image`
                 }, {
-                  "title": "☰ INTERNET MENU",
-                  "description": "Menampilkan Menu Internet",
+                  "title": "『🌏』 ✦ Internet",
+                  "description": "Cari sesuatu DiBOT",
                   "rowId": `${_p}? internet`
                 }, {
-                  "title": "☰ ISLAMIC MENU",
-                  "description": "Menampilkan Menu Islam",
+                  "title": "『🕌』 ✦ Islamic",
+                  "description": "Khusus Muslim Ya ☺︎︎",
                   "rowId": `${_p}? islam`
                 }, {
-                  "title": "☰ KERANG MENU",
-                  "description": "Menampilkan Menu Kerang",
+                  "title": "『🐚』 ✦ Kerang",
+                  "description": "Tanya pada ketua club",
                   "rowId": `${_p}? kerang`
                 }, {
-                  "title": "☰ MAKER MENU",
-                  "description": "Menampilkan Menu Maker",
+                  "title": "『🖌️』 ✦ Macker",
+                  "description": "Macker sesuatu DiBOT",
                   "rowId": `${_p}? maker`
                 }, {
-                  "title": "☰ OWNER MENU",
-                  "description": "Menampilkan Menu Owner",
+                  "title": "『👨‍💻』 ✦ Owner",
+                  "description": "Only owner",
                   "rowId": `${_p}? owner`
                 }, {
-                  "title": "☰ CHANGE VOICE MENU",
-                  "description": "Menampilkan Menu Voice Changer",
+                  "title": "『🎧』 ✦ Voice",
+                  "description": "Ayo pakai filter sound untuk voicemu",
                   "rowId": `${_p}? suara`
                 }, {
-                  "title": "☰ PREMIUM MENU",
-                  "description": "Menampilkan Menu Premium",
+                  "title": "『🌟』 ✦ Premium",
+                  "description": "Only Premium User",
                   "rowId": `${_p}? premium`
                 }, {
-                  "title": "☰ QUOTES MENU",
-                  "description": "Menampilkan Menu Quotes",
+                  "title": "『📑』 ✦ Quotes",
+                  "description": "Dapatkan Inspirasi dari ini",
                   "rowId": `${_p}? quotes`
                 }, {
-                  "title": "☰ RPG MENU",
-                  "description": "Menampilkan Menu Rpg",
+                  "title": "『🌱』 ✦ Rpg",
+                  "description": "Game Epic Rpg!",
                   "rowId": `${_p}? rpg`
                 }, {
-                  "title": "☰ STALKER MENU",
-                  "description": "Menampilkan Menu Stalker",
+                  "title": "『🐾』 ✦ Stalker",
+                  "description": "Stalker via BOT wa yuk",
                   "rowId": `${_p}? stalk`
                 }, {
-                  "title": "☰ SHORT LINK MENU",
-                  "description": "Menampilkan Menu Short Link",
+                  "title": "『🎞️』 ✦ Short",
+                  "description": "Apakah ini berguna untukmu?",
                   "rowId": `${_p}? shortlink`
                 }, {
-                  "title": "☰ TOOLS MENU",
-                  "description": "Menampilkan Menu Tools",
+                  "title": "『🛠️』 ✦ TOOLS MENU",
+                  "description": "Ayo gunakan, tools ini cukup hebat",
                   "rowId": `${_p}? tools`
                 }, {
-                  "title": "☰ TEXT MAKER MENU",
-                  "description": "Menampilkan Maker Text",
+                  "title": "『🔠』 ✦ Text Macker",
+                  "description": "Sedang mencari macker versi text?",
                   "rowId": `${_p}? text`
                 }, {
-                  "title": "☰ HENTAI MENU",
-                  "description": "Menampilkan Menu Hentai",
+                  "title": "『🔞』 ✦ Nsfw",
+                  "description": "Fitur ini sesat, harap lebih bijak!",
                   "rowId": `${_p}? nsfw`
                 }, {
-                  "title": "☰ RANDOM MENU",
-                  "description": "Menampilkan Menu Random/Gabut",
+                  "title": "『🎲』 ✦ Random",
+                  "description": "Kamu sedang mencari suatu hal?",
                   "rowId": `${_p}? random`
                 }, {
-                  "title": "☰ TEXT PRO MENU",
-                  "description": "Menampilkan Text Pro Menu",
+                  "title": "『🖋️』 ✦ Text Pro",
+                  "description": "Ini akan membuat logo",
                   "rowId": `${_p}? textpro`
                 }, {
-                  "title": "☰ PHOTO OXY MENU",
-                  "description": "Menampilkan Photo Oxy Menu",
+                  "title": "『🏞️』 ✦ PHOTO OXY MENU",
+                  "description": "Buat astethic foto DiBOT",
                   "rowId": `${_p}? textpro`
                 }
                   ],
-                "title": "⤿LIST MENU"
+                "title": "------『 MENU 』------*"
                 }, {
                 "rows": [{
                   "title": ` ☰ OWNER BOT`,
