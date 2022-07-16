@@ -21,48 +21,44 @@ let moment = require('moment-timezone')
 //━━━━━━━━[ DEFAULT MENU ]━━━━━━━━//
 const defaultMenu = {
   before:`
-  ┅━━━━━═┅═❏ *DASHBOARD* ❏═┅═━━━━━┅
-❏═┅═━–〈 *U S E R*
-┊• *Name:* %name
-┊• *Tag:* @${m.sender.split`@`[0]}
-┊• *Status:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┊• *Limit:* %limit Limit
-┊• *Money:* %money
-┊• *Role:* %role
-┊• *Level:* %level
-┊• *Xp:* %exp / %maxexp
-┊• *Total Xp:* %totalexp Xp
-┗––––––––––✦
-
-❏═┅═━–〈 *T O D A Y*
-┊• *${ucapan()} ${name}*
-┊• *Today:* %week %weton*
-┊• *Date:* %date
-┊• *Date Islamic:* %dateIslamic
-┊• *Time:* %time
-┗––––––––––✦
-
-❏═┅═━–〈 *I N F O*
-┊• *Bot Name:* ${namebot}
-┊• *Mode:* ${global.opts['self'] ? 'Self' : 'public'}
-┊• *Plaftrom:* linux
-┊• *Type:* Node.Js
-┊• *Baileys:* Multi Device
-┊• *Prefix:* [ ${_p}? ]
-┊• *Uptime:* ${uptime}
-┊• *Database:* %rtotalreg dari %totalreg
-┊• *Memory Used:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-┗––––––––––✦
+╭──〔  𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑  〕─⬣
+┃➵͜͡✪ 𝚄𝚂𝙴𝚁 : *%name*
+┃➵͜͡✪ 𝚁𝙴𝙼𝙰𝙸𝙽𝙸𝙽𝙶 𝙻𝙸𝙼𝙸𝚃 : *%limit* 𝙻𝙸𝙼𝙸𝚃
+┃➵͜͡✪ 𝚁𝙾𝙻𝙴 : *%role*
+┃➵͜͡✪ 𝙻𝙴𝚅𝙴𝙻 : *%level (%exp / %maxexp)* 
+┃➵͜͡✪ 𝚃𝙾𝚃𝙰𝙻 𝚇𝙿 : *%totalexp* 𝚇𝙿
+┃
+┃──〔  𝐓 𝐎 𝐃 𝐀 𝐘  〕─⬣
+┃➵͜͡✪ 𝚃𝙾𝙳𝙰𝚈 : *%week %weton* 
+┃➵͜͡✪ 𝙳𝙰𝚃𝙴 : *%date*
+┃➵͜͡✪ 𝙳𝙰𝚃𝙴 𝙸𝚂𝙻𝙰𝙼𝙸𝙲 : *%dateIslamic*
+┃➵͜͡✪ 𝚃𝙸𝙼𝙴 : *%time*
+┃
+┃──〔  𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄  〕─⬣
+┃➵͜͡✪ 𝚄𝙿𝚃𝙸𝙼𝙴 : *%uptime*
+┃➵͜͡✪ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 : %rtotalreg 𝚍𝚊𝚛𝚒 %totalreg 
+┃➵͜͡✪ 𝙼𝙴𝙼𝙾𝚁𝚈 𝚄𝚂𝙴𝙳 : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+╰─────────────⬣
 %readmore`.trimStart(), 
-  header: '❏––––––『 %category 』––––––\n┃',
-  body: '┊✦ %cmd %islimit %isPremium',
-  footer: '┃\n┗━═┅═━––––––๑\n\n', 
-  footerText: '⫹⫺ 𝗧𝗶𝗺𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 : ${wib}\n⫹⫺ 𝗗𝗮𝘁𝗲 𝗦𝗲𝗿𝘃𝗲𝗿  : ${week} ${date}',
+  header: '╭─㉿ 〔 %category 〕 ㉿─\n┃',
+  body: '┃⫹⫺ %cmd %islimit %isPremium',
+  footer: '┃\n╰────────㉿\n', 
+  footerText: 'Powered by ᯤ ʀɪᴇʟɢᴀɴs ᴏғᴄ',
   after: `
-❏═┅═━–〈 *I N F O  C M D*
-┊ *Ⓟ︎* = Premium
-┊ *Ⓛ︎︎* = Limit
-┗––––––––––✦`,
+╭──〔  THANKS TO  〕─⬣
+⫹⫺ Allah SWT
+⫹⫺ Orang Tua
+⫹⫺ Kesabaran
+⫹⫺ Penyemangat
+⫹⫺ Nurutomo
+⫹⫺ Ilmanhdyt
+⫹⫺ Elyas
+⫹⫺ Hyzer
+⫹⫺ KrizynOfc
+⫹⫺ RielgansOfc
+⫹⫺ ArullOfc
+╰─────────────⬣
+`,
 }
 
 //━━━━━━━━[ CATEGORY ]━━━━━━━━//
@@ -303,210 +299,161 @@ const fdoc = {
 
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
-let menuu = `*────━⃝┅ *D A S H B O A R D* ┅⃝━────
-
-「 *I N F O  C M D* 」
-*Ⓟ* = Premium
-*Ⓛ* = Limit
-
-         「 *Ʋser Ɩnfσrmαtισn* 」
-🌸• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-🌸• *ᴛᴀɢs:* @${m.sender.split`@`[0]}
-🌸• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-🌸• *ᴘʀᴇᴍɪᴜᴍ:* ${global.prem ? 'Yes' : 'No'}
-🌸• *ʟᴇᴠᴇʟ:* ${level} {$exp}
-🌸• *ʀᴏʟᴇ:* ${role}
-
-
-
-
-         「 *Bσt Ɩnfσrmαtισn* 」
-🎐• *ᴜᴘᴛɪᴍᴇ:* ${uptime}
-🎐• *ᴛɪᴍᴇ:* ${wib}
-🎐• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length} User
-🎐• *ʟɪᴍɪᴛ:* ${usrs.limit}
-🎐• *ᴍᴏᴅᴇ:* ${global.opts['self'] ? 'Self' : 'public'}
-🎐• *ᴄʜᴀᴛ ʙᴀɴ:* ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
-🎐• *ᴜsᴇʀ ʙᴀɴ:* ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
-🎐• *ᴍᴏᴅᴇ:* ${global.opts['self'] ? 'Self' : 'public'}          
-     
-     
-    
-                「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ あ⁩ 」    
-
-⫹⫺ 𝗧𝗶𝗺𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 : ${wib}
-⫹⫺ 𝗗𝗮𝘁𝗲 𝗦𝗲𝗿𝘃𝗲𝗿  : ${week} ${date}
+let menuu = `┏━━〔 ıll INFO USER llı 〕━㉿
+┃⌬ Api : ${tag}
+┃⌬ Limit : ${limit}
+┃⌬ Role : ${role}
+┃⌬ Premium : ${global.prem ? 'Yes' : 'No'}
+┗━━━━━━━━━━━━━㉿
+┏━━〔 ıll INFO BOT llı 〕━㉿
+◎ Name : ${namebot}
+◎ Active : ${uptime}
+◎ User : ${Object.keys(global.db.data.users).length} User
+◎ Mode : ${global.opts['self'] ? 'Self' : 'public'}
+◎ Chat Ban : ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
+◎ User Ban : ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
+┗━━━━━━━━━━━━━㉿
+⫹⫺ Date  : ${week} ${date}
+⫹⫺ Time : ${wib}
 `
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `*${ucapan()} ${name}*`,
             description: menuu,
-            buttonText: 'CLICK HERE ⎙',
+            buttonText: 'LIST MENU',
             listType: 1,
-            footerText: "📮 *Note:* Jika menemukan bug, eror atau kesulitam dalam penggunaan bot, silahkan laporkan/tanyakan kepada Owner.",
+            footerText: "☰𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐁𝐲 ©𝐀𝐫𝐮𝐥𝐥𝐎𝐟𝐜",
             mtype: 'listMessage',
             sections: [
               {
       
                 "rows": [{
-                  "title": "『🚦』 ✦ RULLES BOT",
-                  "description": "𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ",
-                  "rowId": '.rulles'
-                  }
-                  ],
-                  "title": "––––––『 RULLES 』––––––"
-                  }, {
-                  "rows": [{
-                  "title": `『⚡』 ✦ SPEED BOT`,
-                  "description": "Menampilkan Kecepatan Respon Bot",
-                  "rowId": '.ping'
-                }, {
-                  "title": "『💌』 ✦ OWNER BOT",
-                  "description": "Menampilkan List owner Bot",
-                  "rowId": `.owner`
-                }, {
-                  "title": "『📔』 ✦ SCRIPT BOT",
-                  "description": "Source Code 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ",
-                  "rowId": `.sc`
-                }, {  
-                  ],
-                  "title": "––––––『 MAIN 』––––––"
-                  }, {
-                  "rows": [{
-                  "title": `『🔖』 ✦ SEWA BOT`,
+                  "title": `☰ ALL MENU`,
                   "description": "Menampilkan Menu All",
-                  "rowId": `.sewabot`
-                }, {
-                  "title": "『🌟』 ✦ BUY PREMIUM",
-                  "description": "Menampilkan Menu All",
-                  "rowId": `.premium`
-                }, {
-                  "title": "『💹』 ✦ DONASI",
-                  "description": "Menampilkan Menu All",
-                  "rowId": `.donasi`
-                }, {    
-                  ],    
-                  "title": "––––––『 SUPPORT 』––––––"
-                  }, {
-                  "rows": [{
-                  "title": `『💬』 ✦  All´,
-                  "description": "Menampilkan Semua Command Bot",
                   "rowId": '.? all'
-                }, {
-                  "title": "『🗒️』 ✦ Absen",
-                  "description": "Absen Sesuatu DiBOT",
+                  }, {
+                  "title": "☰ ABSEN MENU",
+                  "description": "Menampilkan Menu Absen",
                   "rowId": `${_p}? absen`
                 }, {
-                  "title": "『⛩️️』 ✦ Anime",
-                  "description": "Kamu Anime Lovers Ya Kak?",
+                  "title": "☰ ANIME MENU",
+                  "description": "Menampilkan Menu Anime",
                   "rowId": `${_p}? anime`
                 }, {
-                  "title": "『🎨』 ✦ Sticker",
-                  "description": "Buat Sticker Di BOT",
+                  "title": "☰ STICKER  MENU",
+                  "description": "Menampilkan Menu Sticker",
                   "rowId": `${_p}? sticker`
                 }, {
-                  "title": "『📩』 ✦ Downloaders",
-                  "description": "Download Sesuatu Di BOT",
+                  "title": "☰ DOWNLOAD MENU",
+                  "description": "Menampilkan Menu Downloader",
                   "rowId": `${_p}? downloader`
                 }, {
-                  "title": "『✨』 ✦ Exp & Limit",
-                  "description": "Ayo Tingkatkan Pangkatmu!",
+                  "title": "☰ EXP & LIMIT MENU",
+                  "description": "Menampilkan Menu Exp",
                   "rowId": `${_p}? xp`
                 }, {
-                  "title": "『🧩』 ✦ Fun",
-                  "description": "Gabut? Gunakan Fitur Ini",
+                  "title": "☰ FUN MENU",
+                  "description": "Menampilkan Menu Fun",
                   "rowId": `${_p}? fun`
                 }, {
-                  "title": "『🎮』 ✦ Game",
-                  "description": "Gamenya Seru Seru Lho >-<",
+                  "title": "☰ GAME MENU",
+                  "description": "Menampilkan Menu Game",
                   "rowId": `${_p}? game`
                 }, {
-                  "title": "『📌』 ✦ Github",
-                  "description": "Menggunakan Fitur Github DiBOT",
+                  "title": "☰ GITHUB MENU",
+                  "description": "Menampilkan Menu Github",
                   "rowId": `${_p}? github`
                 }, {
-                  "title": "『🏢』 ✦ Group",
-                  "description": "Only Groups",
+                  "title": "☰ GROUP MENU",
+                  "description": "Menampilkan Menu Group",
                   "rowId": `${_p}? group`
                 }, {
-                  "title": "『🖼️』 ✦ Image",
+                  "title": "☰ IMAGE MENU",
                   "description": "Menampilkan Menu Image",
                   "rowId": `${_p}? image`
                 }, {
-                  "title": "『🌏️』 ✦ Internet",
-                  "description": "Cari Sesuatu DiBOT",
+                  "title": "☰ INTERNET MENU",
+                  "description": "Menampilkan Menu Internet",
                   "rowId": `${_p}? internet`
                 }, {
-                  "title": "『🕌』 ✦ Islamic",
-                  "description": "Ibadah Lebih Baik Yuk Kak",
+                  "title": "☰ ISLAMIC MENU",
+                  "description": "Menampilkan Menu Islam",
                   "rowId": `${_p}? islam`
                 }, {
-                  "title": "『🐚』 ✦ Kerang",
-                  "description": "Tanya Pada Ketua Club",
+                  "title": "☰ KERANG MENU",
+                  "description": "Menampilkan Menu Kerang",
                   "rowId": `${_p}? kerang`
                 }, {
-                  "title": "『🖌️』 ✦ Macker",
-                  "description": "Buat Logo Dengan BOT",
+                  "title": "☰ MAKER MENU",
+                  "description": "Menampilkan Menu Maker",
                   "rowId": `${_p}? maker`
                 }, {
-                  "title": "『👨‍💻️』 ✦ Owner",
-                  "description": "Only Owner",
+                  "title": "☰ OWNER MENU",
+                  "description": "Menampilkan Menu Owner",
                   "rowId": `${_p}? owner`
                 }, {
-                  "title": "『‍🎧』 ✦ Audio",
-                  "description": "Tambahkan Filter Di Audiomu",
+                  "title": "☰ CHANGE VOICE MENU",
+                  "description": "Menampilkan Menu Voice Changer",
                   "rowId": `${_p}? suara`
                 }, {
-                  "title": "『🌟』 ✦ Premium",
-                  "description": "Only Premium User",
+                  "title": "☰ PREMIUM MENU",
+                  "description": "Menampilkan Menu Premium",
                   "rowId": `${_p}? premium`
                 }, {
-                  "title": "『📑』 ✦ Quotes",
-                  "description": "Random Inspirasi",
+                  "title": "☰ QUOTES MENU",
+                  "description": "Menampilkan Menu Quotes",
                   "rowId": `${_p}? quotes`
                 }, {
-                  "title": "『🌱』 ✦ Rpg",
-                  "description": "Game Epic Rpg!",
+                  "title": "☰ RPG MENU",
+                  "description": "Menampilkan Menu Rpg",
                   "rowId": `${_p}? rpg`
                 }, {
-                  "title": "『🔍』 ✦ Stalker",
-                  "description": "Menampilkan Fitur Stalker",
+                  "title": "☰ STALKER MENU",
+                  "description": "Menampilkan Menu Stalker",
                   "rowId": `${_p}? stalk`
                 }, {
-                  "title": "『📚』 ✦ Short Link",
+                  "title": "☰ SHORT LINK MENU",
                   "description": "Menampilkan Menu Short Link",
                   "rowId": `${_p}? shortlink`
                 }, {
-                  "title": "『🛠️』 ✦ Tools",
-                  "description": "Mungkin Tools Ini Dapat Membantu?",
+                  "title": "☰ TOOLS MENU",
+                  "description": "Menampilkan Menu Tools",
                   "rowId": `${_p}? tools`
                 }, {
-                  "title": "『✒️』 ✦ Text Macker",
-                  "description": "Menampilkan Fitur Maker Text",
+                  "title": "☰ TEXT MAKER MENU",
+                  "description": "Menampilkan Maker Text",
                   "rowId": `${_p}? text`
                 }, {
-                  "title": "『🔞』 ✦ Nsfw",
-                  "description": "Apakah Kamu Menyukai Ini?",
+                  "title": "☰ HENTAI MENU",
+                  "description": "Menampilkan Menu Hentai",
                   "rowId": `${_p}? nsfw`
                 }, {
-                  "title": "『🎲』 ✦ Random",
-                  "description": "Random Fitur BOT",
+                  "title": "☰ RANDOM MENU",
+                  "description": "Menampilkan Menu Random/Gabut",
                   "rowId": `${_p}? random`
                 }, {
-                  "title": "『📝』 ✦ Text Pro",
-                  "description": "Ayo Hias Text Mu Di BOT",
+                  "title": "☰ TEXT PRO MENU",
+                  "description": "Menampilkan Text Pro Menu",
                   "rowId": `${_p}? textpro`
                 }, {
-                  "title": "『🧑🏻‍🎨』 ✦ Photo Oxy",
-                  "description": "Digunakan Yah Photo Oxy-Nya",
+                  "title": "☰ PHOTO OXY MENU",
+                  "description": "Menampilkan Photo Oxy Menu",
                   "rowId": `${_p}? textpro`
-                },{
-                  "title": "『ℹ️』 ✦ Info",
-                  "description": "Info Info Tentang BOT",
-                  "rowId": `${_p}? info`
-                  }],
-                "title": "––––––『 MENU 』––––––"
                 }
+                  ],
+                "title": "⤿LIST MENU"
+                }, {
+                "rows": [{
+                  "title": ` ☰ OWNER BOT`,
+                  "description": "Nomor Pemilik Bot! save? Save ae🗿",
+                  "rowId": `.owner`
+                },{
+                  "title": "☰ INFO BOT",
+                  "description": "Menampilkan Menu Info",
+                  "rowId": `${_p}? info`
+                }],
+                "title": "⤿INFORMASI BOT"
+              }
             ], "contextInfo": {
               "stanzaId": m.key.id,
               "participant": m.sender,
@@ -579,36 +526,36 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             hydratedFooterText: wm2, 
             hydratedButtons: [{
             urlButton: {
-               displayText: '🎀 Instagram Owner',
+               displayText: 'Saweria',
                url: webm
              }
 
            },
              {
              urlButton: {
-               displayText: '💌 Group Official', 
+               displayText: 'Group Bot', 
                url: gc
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '🌹 Owner',
+               displayText: 'Pemilik Bot',
                id: '.owner',
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '🐾 Speed',
-               id: '.ping',
+               displayText: 'Donasi',
+               id: '.donasi',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: '📮 Donasi',
-               id: '.donasi',
+               displayText: ' Thanks To',
+               id: '.tqto',
              }
            }]
          }
@@ -621,7 +568,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
          { messageId: template.key.id }
      )
 } catch (e) {
-    conn.reply(m.chat, '*ᴄᴏᴍᴍᴀɴᴅs* • ᴍᴇɴᴜ ᴀᴛᴀᴜ ғɪᴛᴜʀ ɪɴɪ sᴇᴅᴀɴɢ ᴇʀᴏʀ', m)
+    conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
   }
 }
@@ -658,7 +605,7 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat Beristirahat 🛌"
+  res = "tidur gih sana"
   if (time >= 5) {
     res = "Selamat pagi🌅 kak"
   }
