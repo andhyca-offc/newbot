@@ -21,44 +21,41 @@ let moment = require('moment-timezone')
 //━━━━━━━━[ DEFAULT MENU ]━━━━━━━━//
 const defaultMenu = {
   before:`
-╭──〔  𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑  〕─⬣
-┃➵͜͡✪ 𝚄𝚂𝙴𝚁 : *%name*
-┃➵͜͡✪ 𝚁𝙴𝙼𝙰𝙸𝙽𝙸𝙽𝙶 𝙻𝙸𝙼𝙸𝚃 : *%limit* 𝙻𝙸𝙼𝙸𝚃
-┃➵͜͡✪ 𝚁𝙾𝙻𝙴 : *%role*
-┃➵͜͡✪ 𝙻𝙴𝚅𝙴𝙻 : *%level (%exp / %maxexp)* 
-┃➵͜͡✪ 𝚃𝙾𝚃𝙰𝙻 𝚇𝙿 : *%totalexp* 𝚇𝙿
-┃
-┃──〔  𝐓 𝐎 𝐃 𝐀 𝐘  〕─⬣
-┃➵͜͡✪ 𝚃𝙾𝙳𝙰𝚈 : *%week %weton* 
-┃➵͜͡✪ 𝙳𝙰𝚃𝙴 : *%date*
-┃➵͜͡✪ 𝙳𝙰𝚃𝙴 𝙸𝚂𝙻𝙰𝙼𝙸𝙲 : *%dateIslamic*
-┃➵͜͡✪ 𝚃𝙸𝙼𝙴 : *%time*
-┃
-┃──〔  𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄  〕─⬣
-┃➵͜͡✪ 𝚄𝙿𝚃𝙸𝙼𝙴 : *%uptime*
-┃➵͜͡✪ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 : %rtotalreg 𝚍𝚊𝚛𝚒 %totalreg 
-┃➵͜͡✪ 𝙼𝙴𝙼𝙾𝚁𝚈 𝚄𝚂𝙴𝙳 : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
-╰─────────────⬣
+┅━━━━━═┅═❏ *DASHBOARD* ❏═┅═━━━━━┅
+❏═┅═━–〈 *U S E R*
+┊• *Name:* %name
+┊• *Limit:* %limit
+┊• *Role:* %role
+┊• *Level:* %level 
+┊• *Xp:* (%exp / %maxexp) 
+┊• *Total Xp:* %totalexp* Xp
+┗––––––––––✦
+
+❏═┅═━–〈 *T O D A Y*
+┊• *Today:* %week %weton
+┊• *Date:* %date
+┊• *Date Islamic:* %dateIslamic
+┊• *Time:* %time
+┗––––––––––✦
+
+❏═┅═━–〈 *D A T A B A S E*
+┊• *Runtime:* %uptime
+┊• *Database:* %rtotalreg 𝚍𝚊𝚛𝚒 %totalreg 
+┊• *Memory Used:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+┊• *Time Wib:* ${wib} WIB
+┊• *Users:* ${Object.keys(global.db.data.users).length} User
+┊• *Chat Terbanned:* ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat
+┊• *Pengguna Terbanned:* ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna
+┊• *Mode:* ${global.opts['self'] ? 'Self' : 'publik'}
+┗––––––––––✦
+
+
 %readmore`.trimStart(), 
   header: '╭─㉿ 〔 %category 〕 ㉿─\n┃',
   body: '┃⫹⫺ %cmd %islimit %isPremium',
   footer: '┃\n╰────────㉿\n', 
   footerText: 'Powered by ᯤ ʀɪᴇʟɢᴀɴs ᴏғᴄ',
-  after: `
-╭──〔  THANKS TO  〕─⬣
-⫹⫺ Allah SWT
-⫹⫺ Orang Tua
-⫹⫺ Kesabaran
-⫹⫺ Penyemangat
-⫹⫺ Nurutomo
-⫹⫺ Ilmanhdyt
-⫹⫺ Elyas
-⫹⫺ Hyzer
-⫹⫺ KrizynOfc
-⫹⫺ RielgansOfc
-⫹⫺ ArullOfc
-╰─────────────⬣
-`,
+  after: ``,
 }
 
 //━━━━━━━━[ CATEGORY ]━━━━━━━━//
